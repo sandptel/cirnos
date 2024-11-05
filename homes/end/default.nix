@@ -1,8 +1,9 @@
+{ lib,pkgs, impurity, ... }:
 let
-  username = "end";
-  homeDirectory = "/home/end";
+  username = lib.mkForce "roronoa";
+  homeDirectory = lib.mkForce "/home/roronoa";
 in
-{ pkgs, impurity, ... }: {
+{
   imports = [
     # Cachix
     # ./cachix.nix

@@ -139,7 +139,7 @@
 
   # network
   networking = {
-    hostName = "CirnOS";
+    hostName = "roronoa";
     networkmanager.enable = true;
   };
 
